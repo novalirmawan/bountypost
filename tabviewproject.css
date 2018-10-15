@@ -15,7 +15,7 @@ main {
 section {
   display: none;
   padding: 20px 0 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #DC143C;
 }
 
 label {
@@ -34,14 +34,19 @@ label:before {
   margin-right: 10px;
 }
 
-label[for*='1']:before { content: '\f05a'; }
+label[for*='1']:before { content: '\f1ab'; }
 label[for*='2']:before { content: '\f15a'; }
-label[for*='3']:before { content: '\f0c0'; }
-label[for*='4']:before { content: '\f15d'; }
-label[for*='5']:before { content: '\f005'; }
+label[for*='3']:before { content: '\f0f6'; }
+label[for*='4']:before { content: '\f230'; }
+label[for*='5']:before { content: '\f099'; }
+label[for*='6']:before { content: '\f16a'; }
+label[for*='7']:before { content: '\f23a'; }
+label[for*='8']:before { content: '\f281'; }
+label[for*='9']:before { content: '\f1d8'; }
+label[for*='10']:before { content: '\f074'; }
 
 label:hover {
-  color: #888;
+  color: #DC143C;
   cursor: pointer;
 }
 
@@ -56,7 +61,12 @@ input:checked + label {
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
 #tab4:checked ~ #content4,
-#tab5:checked ~ #content5 {
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6,
+#tab7:checked ~ #content7,
+#tab8:checked ~ #content8,
+#tab9:checked ~ #content9,
+#tab10:checked ~ #content10 {
   display: block;
 }
 
